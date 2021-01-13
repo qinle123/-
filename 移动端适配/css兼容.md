@@ -1,0 +1,1 @@
+1. 当字母和汉字不能居中的时候 给line-height可以对齐 可以设置字体为       font-family: simsun
