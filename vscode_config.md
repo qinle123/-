@@ -3,4 +3,4 @@
 给你配置settings.json里加一条：
 
 "workbench.editor.enablePreview": false,
-2. 
+2. alt(option) + z 切换视图换行
