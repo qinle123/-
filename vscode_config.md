@@ -4,3 +4,4 @@
 
 "workbench.editor.enablePreview": false,
 2. alt(option) + z 切换视图换行
+3. showtabs
