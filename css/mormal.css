@@ -1,0 +1,233 @@
+/**
+ * 通用css样式布局处理
+ * Copyright (c) 2019 ruoyi
+ */
+
+/** 基础通用 **/
+.pt5 {
+  padding-top: 5px;
+}
+.pb5 {
+  padding-bottom: 5px;
+}
+.pl5 {
+  padding-left: 5px;
+}
+.pr5 {
+  padding-right: 5px;
+}
+.pt10 {
+  padding-top: 10px;
+}
+.pb10 {
+  padding-bottom: 10px;
+}
+.pl10 {
+  padding-left: 10px;
+}
+.pr10 {
+  padding-right: 10px;
+}
+.pt20 {
+  padding-top: 20px;
+}
+.pb20 {
+  padding-bottom: 20px;
+}
+.pl20 {
+  padding-left: 20px;
+}
+.pr20 {
+  padding-right: 20px;
+}
+.mt5 {
+  margin-top: 5px;
+}
+.mb5 {
+  margin-bottom: 5px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.ml5 {
+  margin-left: 5px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.ml20 {
+  margin-left: 20px;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+.fs13 {
+  font-size: 13px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+/* text color */
+.text-navy {
+  color: #1ab394;
+}
+
+.text-info {
+  color: #38f;
+}
+
+.text-success {
+  color: #23c6c8;
+}
+
+.text-warning {
+  color: #f8ac59;
+}
+
+.text-danger {
+  color: #ed5565;
+}
+
+.text-muted {
+  color: #888888;
+}
+
+/* 暗红 */
+.text-heav {
+  color: #c7254e;
+}
+
+/* 淡粉 */
+.bg-pink {
+  background-color: #f9f2f4;
+}
+
+/* image */
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-lg {
+  width: 120px;
+  height: 120px;
+}
+
+.avatar-upload-preview {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px #ccc;
+  overflow: hidden;
+}
+
+.active {
+  font-size: 14px;
+  color: #1890ff;
+  cursor: pointer;
+}
+
+/* 拖拽列样式 */
+.sortable-ghost {
+  opacity: 0.8;
+  color: #fff !important;
+  background: #38f !important;
+}
+
+.top-right-btn {
+  position: relative;
+  float: right;
+}
+
+/* cursor */
+.point {
+  cursor: pointer;
+}
+
+.require:before {
+  content: '*';
+  color: red;
+}
+
+/* 超出省略 等字体控制 */
+.ell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+.line1 {
+  -webkit-line-clamp: 1;
+}
+.line2 {
+  -webkit-line-clamp: 2;
+}
+
+/* 浅色阴影 */
+.shadow1 {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+/* 基础阴影 */
+.shadow2 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
+
+.nor_gap {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+} /* 这是针对缺省样式 (必须的) */
+
+::-webkit-scrollbar-track {
+  background-color: #ffff;
+} /* 滚动条的滑轨背景颜色 */
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+} /* 滑块颜色 */
+
+.cny::before {
+  content: '¥';
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+
+.scroll-hide {
+  scrollbar-width: none; /* firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
